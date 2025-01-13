@@ -6,6 +6,7 @@ import com.mrh0.createaddition.item.ElectrumAmulet;
 import com.mrh0.createaddition.item.WireSpool;
 import com.mrh0.createaddition.item.BiomassPellet;
 import com.mrh0.createaddition.item.DiamondGritSandpaper;
+import com.simibubi.create.content.equipment.sandPaper.SandPaperItemRenderer;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.item.Item;
@@ -28,7 +29,9 @@ public class CAItems {
 			CreateAddition.REGISTRATE.item("diamond_grit", Item::new)
 			.register();
 
-	public static final ItemEntry<DiamondGritSandpaper> DIAMOND_GRIT_SANDPAPER = CreateAddition.REGISTRATE.item("diamond_grit_sandpaper", DiamondGritSandpaper::new)
+	public static final ItemEntry<DiamondGritSandpaper> DIAMOND_GRIT_SANDPAPER =
+		CreateAddition.REGISTRATE.item("diamond_grit_sandpaper", DiamondGritSandpaper::new)
+			.transform(CreateRegistrate.customRenderedItem(() -> SandPaperItemRenderer::new))
 			.register();
 	
 	public static final ItemEntry<Item> BIOMASS =
