@@ -10,6 +10,7 @@ langs = [
     "zh_cn.json",
     "de_de.json",
     "es_es.json",
+    "es_mx.json",
     "ja_jp.json",
     "ko_kr.json",
     "pt_br.json",
@@ -24,9 +25,10 @@ with open(dir + "/../" + truth, 'r', encoding="utf8") as truthFile:
             langJson = json.loads(currentFile.read())
             for (key, truthValue) in truthJson.items():
                 newLang[key] = truthValue
-                if key in langJson:
-                    print("Key: " + key + " not in lang")
+                 if key in langJson:
                     newLang[key] = langJson[key]
+                else:
+                    print("Key: " + key + " not in lang")
                     
         with open(dir + "/../" + lang, 'w', encoding="utf8") as currentFile:
             currentFile.write(json.dumps(newLang, ensure_ascii=False, indent="\t"))
