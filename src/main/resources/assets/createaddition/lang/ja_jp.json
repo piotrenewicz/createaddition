@@ -127,7 +127,7 @@
 
 	"item.createaddition.spool": "空のスプール",
 	"item.createaddition.spool.nbt": "接続場所を格納.",
-	"item.createaddition.spool.tooltip.summary": "配線を収納するのに使用。"",
+	"item.createaddition.spool.tooltip.summary": "配線を収納するのに使用。",
 	"item.createaddition.spool.tooltip.condition1": "2つのコネクタを右クリックする",
 	"item.createaddition.spool.tooltip.behaviour1": "それらの間にワイヤーリンクを作成し、_空のスプール_が戻ってきます。",
 
@@ -216,6 +216,8 @@
 	"block.createaddition.chocolate_cake": "チョコレートケーキ",
 	"block.createaddition.honey_cake": "ハチミツケーキ",
 
+	"block.createaddition.electrum_block": "エレクトラムブロック",
+
 	"block.createaddition.biomass_pellet_block": "バイオマスペレット",
 
 	"block.createaddition.seed_oil": "種油",
@@ -229,7 +231,7 @@
 
 	"block.createaddition.liquid_blaze_burner": "ストロー付きブレイズバーナー",
 
-	"itemGroup.createaddition:main": "Create Crafts & Additions",
+	"itemGroup.createaddition.main":"Create Crafts & Additions",
 
 	"createaddition.ponder.tag.electric": "電気機器",
 	"createaddition.ponder.tag.electric.description": "電気を扱う機械",
