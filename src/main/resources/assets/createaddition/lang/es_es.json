@@ -18,7 +18,7 @@
 	"createaddition.tooltip.energy.none": "Ninguno",
 
 	"createaddition.tooltip.accumulator.info": "Información del acumulador:",
-	"createaddition.tooltip.relay.info": "Información de retransmisión:",
+	"createaddition.tooltip.relay.info": "Información del relé:",
 	"createaddition.tooltip.connector.info": "Información del conector:",
 
 	"createaddition.recipe.rolling": "Laminado",
